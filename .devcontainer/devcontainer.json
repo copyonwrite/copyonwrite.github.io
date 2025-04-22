@@ -1,0 +1,5 @@
+{
+	"name": "Jekyll",
+	"image": "mcr.microsoft.com/devcontainers/ruby",
+	"postCreateCommand": "gem install eventmachine bigdecimal bundler jekyll && bundle install"
+}
